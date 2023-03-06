@@ -1,0 +1,146 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(src/weatherbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #8cbafd;
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 70%;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  border: 10px inset #0287b2;
+  box-shadow: 10px 10px 70px;
+}
+
+h1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  background: -webkit-linear-gradient(#00afef, #02475e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-control {
+  width: 600px;
+  margin: 0 10px;
+}
+.search {
+  background-color: #008ab2;
+  border-color: #90b7bc;
+  color: white;
+}
+
+.search:hover {
+  background-color: #02475e;
+
+  border-color: #008ab2;
+  color: white;
+  font-weight: 500;
+}
+
+.current {
+  color: #008ab2;
+  border-color: #90b7bc;
+  background-color: white;
+}
+
+.current:hover {
+  color: #02475e;
+  border-color: #008ab2;
+  background-color: white;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #0097cd;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(104, 104, 104);
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+
+h4 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sunny-now {
+  color: #ffd400;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.temperature-now {
+  font-size: 100px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.celsius,
+.farenheit,
+.temperature-separator {
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  text-align: left;
+  text-decoration: none;
+}
+
+.weekweather {
+  display: block;
+  margin: 0px auto;
+  padding: 30px 40px;
+}
+
+.day {
+  margin: 0 30px;
+  width: max-content;
+}
+
+h5 {
+  font-size: 25px;
+  margin: 10px auto;
+  color: #02475e;
+}
+
+.sunny {
+  color: #ffd400;
+  font-size: 60px;
+  margin: 20px auto;
+}
+
+h6 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(104, 104, 104);
+  margin: 20px auto;
+}
+
+.rainy {
+  font-size: 60px;
+  margin: 20px auto;
+  background: -webkit-linear-gradient(#212529, #00afef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
