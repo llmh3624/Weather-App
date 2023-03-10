@@ -19,6 +19,7 @@ body {
   max-width: 70%;
   display: block;
   text-align: center;
+  height: 770px;
   margin: 0px auto;
   border: 10px inset #0287b2;
   box-shadow: 10px 10px 70px;
@@ -144,4 +145,16 @@ h6 {
   background: -webkit-linear-gradient(#212529, #00afef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+footer {
+  color: white;
+  margin: 0px;
+}
+
+.linkcode {
+  color: white;
+}
+
+.linkcode:hover {
+  color: #ffd400;
 }
