@@ -148,11 +148,14 @@ h6 {
 }
 footer {
   color: white;
-  margin: 0px;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
 }
 
 .linkcode {
   color: white;
+  text-align: center;
 }
 
 .linkcode:hover {
