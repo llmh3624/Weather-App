@@ -20,9 +20,10 @@ body {
   display: block;
   text-align: center;
   height: 770px;
-  margin: 0px auto;
-  border: 10px inset #0287b2;
-  box-shadow: 10px 10px 70px;
+  margin: 0px;
+  padding: 0px;
+  border: 8px inset #0287b2;
+  box-shadow: 7px 7px 40px;
 }
 
 h1 {
@@ -73,7 +74,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(104, 104, 104);
 }
 li {
@@ -98,15 +99,25 @@ h4 {
   font-size: 100px;
   text-align: center;
   vertical-align: top;
+  
+}
+.units {
+  position: relative;
+  top: 25px;
 }
 
 .celsius,
 .farenheit,
 .temperature-separator {
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(104, 104, 104);
   text-align: left;
   text-decoration: none;
+}
+
+.celsius, .farenheit:hover{
+  color: #02475E;
+  font-weight:500;
 }
 
 .weekweather {
@@ -149,6 +160,7 @@ h6 {
 footer {
   color: white;
   margin: 0px auto;
+  padding:0px;
   display: block;
   text-align: center;
 }
