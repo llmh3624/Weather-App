@@ -19,7 +19,7 @@ body {
   max-width: 70%;
   display: block;
   text-align: center;
-  height: 770px;
+  height:min-height;
   margin: 0px;
   padding: 0px;
   border: 8px inset #0287b2;
@@ -123,7 +123,7 @@ h4 {
 .weekweather {
   display: block;
   margin: 0px auto;
-  padding: 30px 40px;
+  padding: 10px;
 }
 
 .day {
@@ -159,9 +159,10 @@ h6 {
 }
 footer {
   color: white;
-  margin: 0px auto;
-  padding:0px;
+  margin: 0px;
   display: block;
+  position:relative;
+  top:-30px;
   text-align: center;
 }
 
