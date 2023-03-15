@@ -2,28 +2,34 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url(src/weatherbackground.jpg);
   background-image: url("https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-  background-size: 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   background-color: #8cbafd;
-  min-height: 100vh;
 }
 
 .container {
   min-height: 100vh;
   display: flex;
+  margin: 0px auto;
+  padding: 0px;
   align-items: center;
   justify-content: center;
 }
 
-.card {
+.weather-app-cover {
+  background-color: white;
   max-width: 70%;
   display: block;
   text-align: center;
-  height:min-height;
+  height: min-height;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px;
   border: 8px inset #0287b2;
   box-shadow: 7px 7px 40px;
+}
+
+.weather-app {
+  margin: 10px 30px;
 }
 
 h1 {
@@ -99,8 +105,8 @@ h4 {
   font-size: 100px;
   text-align: center;
   vertical-align: top;
-  
 }
+
 .units {
   position: relative;
   top: 25px;
@@ -115,9 +121,10 @@ h4 {
   text-decoration: none;
 }
 
-.celsius, .farenheit:hover{
-  color: #02475E;
-  font-weight:500;
+.celsius,
+.farenheit:hover {
+  color: #02475e;
+  font-weight: 500;
 }
 
 .weekweather {
@@ -161,8 +168,6 @@ footer {
   color: white;
   margin: 0px;
   display: block;
-  position:relative;
-  top:-30px;
   text-align: center;
 }
 

@@ -29,13 +29,13 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-body">
+      <div class="weather-app-cover">
+        <div class="weather-app">
           <header>
             <h1>WEATHER APP</h1>
           </header>
           <br />
-          <form id=searching-form action="text" >
+          <form id=search-form action="text" >
             <div  class="browser" style="display: flex; justify-content: center;">
               <div>
                 <input
@@ -60,7 +60,7 @@
           <br />
           <hr />
 
-          <div class="weathertodayoftheweek">
+          <div class="week-forecast">
             <div class="row">
               <div class="col-6">
                 <h2 id=city>Palma de Mallorca</h2>
@@ -69,10 +69,7 @@
                     <h3 id=date-now>Thursday, February 25 2023 - 13:20</h3>
                   </li>
                   <li>
-                    <h3>It is sunny today</h3>
-                  </li>
-                  <li>
-                    <h3>Humidity: 80%, Wind: 4,35 km/h</h3>
+                    <h3>Humidity: <span id="humidity"></span>%, Wind: <span id="wind"></span>km/h</h3>
                   </li>
                 </ul>
               </div>
